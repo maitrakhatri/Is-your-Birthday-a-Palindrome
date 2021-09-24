@@ -9,10 +9,29 @@
 </head>
 <body>
     
+    <div class="container">
     <h1>Is your Birthday a Palindrome?</h1>
     <input type="date" id="bday"> <br>
     <button id="check-button">Check</button>
     <h2 id="result"></h2>
+    </div>
+
+    <div class="container2">
+        <h3>Understand Palindrome</h3>
+        <p>Palindrome is a word, phrase, or sequence that reads the same backwards as forwards.</p>
+        <h3>How our algorith works?</h3>
+        <p>First it checks wheather your Birthday is a Palindrome or not.</p>
+        <p>It checks in all the different formats: </p>
+        <ul>
+            <li>dd-mm-yyyy</li>
+            <li>mm-dd-yyyy</li>
+            <li>yyyy-mm-dd</li>
+            <li>dd-mm-yy</li>
+            <li>mm-dd-yy</li>
+            <li>yy-mm-dd</li>
+        </ul>
+        <p>And if it's not then gives you the next Palindrome Date and the number of day by which you missed it</p>
+    </div>
 
 </body>
 <script src="app.js"></script>
