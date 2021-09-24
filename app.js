@@ -176,7 +176,7 @@ function clickHandler() {
         }
         else {
             var [counter, nextDate] = getNextPalindromeDate(date);
-            result.innerText = "You missed it by " + counter + " days" + " Next Date is " + nextDate.day +"-" + nextDate.month + "-" + nextDate.year;
+            result.innerText = "Your Birthday is not a Palindrome :( " + "You missed it by " + counter + " days." + " The Next Date is " + nextDate.day +"-" + nextDate.month + "-" + nextDate.year;
         }
     }
     
